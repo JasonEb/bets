@@ -60,7 +60,7 @@ td {
 .inactive {
   height: 14vw;
   opacity: 5%;
-  -moz-opacity: 0.05%;
-  -webkit-opacity: 0.05%;
+  -moz-opacity: 5%;
+  -webkit-opacity: 5%;
   filter: alpha(opacity=0.05);
 }
