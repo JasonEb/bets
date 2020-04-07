@@ -1,0 +1,60 @@
+body {
+  background: #1abc9c;
+  display: flex;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 6vw;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+p a {
+  text-decoration: none;
+  color: #f1c40f;
+}
+#squarefree {
+  font-family: Helvetica;
+  margin: 0 auto;
+  background: #5dc4de;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15pt;
+}
+#bingotable {
+  margin: 0 auto;
+  text-align: center;
+  width: 90vw;
+  height: 80vh;
+  border-collapse: collapse;
+  background: white;
+}
+th,
+td {
+  font-family: cursive;
+  font-size: 7vw;
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid black;
+  width: 20%;
+}
+.orange {
+  background: #9b59b6;
+}
+
+.active {
+  height: 14vw;
+  opacity: 100%;
+}
+
+.inactive {
+  height: 14vw;
+  opacity: 5%;
+}
